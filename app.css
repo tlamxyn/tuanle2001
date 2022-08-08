@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+tml {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* margin and padding*/
+    padding: 0px;
+    margin: 0px;
+    margin-top: 6em;
+    /* text-font*/
+    font-family: 'Kanit', sans-serif;
+    /* Content size*/
+    /* background setting*/
+    background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/dirt-road_D8UQGIR4OF.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    /* text setting*/
+    text-align: center;
+    text-shadow: 4px 4px 7px green;
+    vertical-align: baseline;
+    /* element's size setting*/
+    height: 50px;
+    margin: 10px;
+    /* border setting*/
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-left-width: 6px;
+    border-top-width: 6px;
+}
+
+h2:hover {
+    /* Border changing*/
+    box-shadow: 5px 4px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    /* Background color*/
+    background-color: aquamarine;
+}
+
+span {
+    vertical-align: sub;
+}
+
+p {
+    font-style: italic;
+    text-decoration-line: overline;
+    text-decoration-color: blue;
+}
+
+.content {
+    /* make body's content middle and center*/
+    margin: auto;
+    max-width: 70%;
+    /* text's decoration*/
+    color: black;
+    background-color: white;
+    box-shadow: 5px 0px;
+    /* Margin and padding*/
+    padding-top: 10px;
+    margin-top: 10px;
+    /* Add scroll*/
+}
+
+.headd {
+    /* Margin and padding*/
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    background-color: papayawhip;
+    height: 10vh;
+}
+
+.tofix {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.headd-link {
+    text-decoration: none;
+    /* text*/
+    font-size: 1.4em;
+    font-weight: 900;
+    background-color: inherit;
+    vertical-align: middle;
+    /* Margin and padding*/
+    margin: 0em;
+    padding: 0.5em;
+    /* Display*/
+    display: inline-flex;
+}
+
+.headd-link:hover {
+    box-shadow: 5px 5px 22px purple, 1px 1px 5px orangered;
+}
+
+.headd-link:active {
+    background-color: gray;
+    color: brown;
+}
+
+.logo {
+    position: relative;
+    left: 10px;
+    text-transform: uppercase;
+    color: gray;
+    float: left;
+    height: inherit;
+    width: inherit;
+}
+
+.menu {
+    float: right;
+}
+
+table {
+    overflow-y: scroll;
+    overflow-x: auto;
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+}
+
+.header-layout {
+    /* Margin*/
+    margin: auto;
+    max-width: 70%;
+    height: 10vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: gray;
+}
