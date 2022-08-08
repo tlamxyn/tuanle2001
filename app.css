@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-tml {
+html {
     margin: 0px;
     padding: 0px;
 }
@@ -24,6 +24,7 @@ body {
 }
 
 h2 {
+    box-sizing: content-box;
     /* text setting*/
     text-align: center;
     text-shadow: 4px 4px 7px green;
@@ -48,6 +49,13 @@ h2:hover {
     border-bottom-width: 5px;
     /* Background color*/
     background-color: aquamarine;
+}
+
+h2:active {
+    border-top-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
 }
 
 span {
