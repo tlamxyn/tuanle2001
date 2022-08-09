@@ -156,3 +156,55 @@ a {
 a:active {
     color: gray;
 }
+
+.ff {
+    float: right;
+}
+
+.box-name {
+    height: 5vw;
+    background-color: aqua;
+}
+
+.sub-image {
+    height: inherit;
+    float: left;
+    position: relative;
+    left: 3%;
+}
+
+.sub-image-a {
+    text-align: center;
+    background-color: slateblue;
+    color: white;
+    border-radius: 50%;
+    height: 7vw;
+    width: 7vw;
+    position: fixed;
+    right: 5vw;
+    bottom: 5vw;
+    /**/
+    box-shadow: 5px 5px 10px purple;
+}
+
+.sub-image-a:hover {
+    box-sizing: content-box;
+    border-bottom-width: 3px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 3px;
+    border-style: solid;
+    border-color: purple;
+}
+
+.sub-image-a:active {
+    box-sizing: border-box;
+    border-style: solid;
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: #6a5acd6b;
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+}
