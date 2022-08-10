@@ -24,13 +24,14 @@ body {
 }
 
 h2 {
+    padding: 1px;
+    overflow: auto;
     box-sizing: content-box;
     /* text setting*/
     text-align: center;
     text-shadow: 4px 4px 7px green;
     vertical-align: baseline;
     /* element's size setting*/
-    height: 50px;
     margin: 10px;
     /* border setting*/
     border-style: solid;
@@ -83,12 +84,15 @@ p {
 }
 
 .headd {
+    z-index: 1;
     /* Margin and padding*/
     margin: 0;
     width: 100%;
     text-align: left;
     background-color: papayawhip;
     height: 10vh;
+    /* Over flow case*/
+    overflow: hidden;
 }
 
 .tofix {
@@ -157,17 +161,14 @@ a:active {
     color: gray;
 }
 
-.ff {
-    float: right;
-}
-
 .box-name {
-    height: 5vw;
     background-color: aqua;
+    display: flex;
+    overflow: auto;
 }
 
 .sub-image {
-    height: inherit;
+    height: 100px;
     float: left;
     position: relative;
     left: 3%;
